@@ -1,8 +1,8 @@
 # my_stdr_control
 
-Your description goes here
+This package moves a stdr robot to the upper left corner of a maze on an open loop
 
 ## Example usage
-
-## Running tests/demos
-    
+`roslaunch stdr_launchers server_with_map_and_gui_plus_robot.launch`
+to start the simulator.  Run a simple, open-loop command sequence with:
+`rosrun my_stdr_control my_stdr_open_loop_commander`
